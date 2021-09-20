@@ -19,7 +19,7 @@ export default class DogIndex extends React.Component {
             .then(res => res.json())
             .then(json =>{
             console.log(json)
-                this.setState({ dogList: json.message })
+            this.setState({ dogList: json.message})
             })
                     .catch(e => console.error(e))
         console.log("Hello")
@@ -28,9 +28,9 @@ export default class DogIndex extends React.Component {
     render() {
         return (
             <div>
-                <h1>Dogs Component</h1>
-            <img src={this.state.dogList} style={{height:"700px", width: "700px", borderBlockStyle: "200px"}} />
-            <button onClick={this.fetchDog}>Fetch Dog</button>
+            <h1>Dogs Component</h1>               
+            <img src={this.state.dogList} style={{height:"850px", width: "900px", borderRadius: "200px"}} />
+            <button onClick={this.fetchDog}>Click Happy for Dog</button>
 
             </div>)
       

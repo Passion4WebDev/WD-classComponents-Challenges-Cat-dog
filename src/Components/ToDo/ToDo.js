@@ -1,10 +1,12 @@
 import React from 'react';
 import {Container} from 'reactstrap';
+import ToDo2 from './ToDo2';
 
 const ToDo = () => {
   return(
     <Container className="App">
      <br />
+     <ToDo2 />
        <h1 className="App-intro">
      In this challenge your goal is to create a to do list: 
        </h1>
