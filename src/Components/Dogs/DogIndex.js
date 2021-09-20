@@ -30,7 +30,7 @@ export default class DogIndex extends React.Component {
             <div>
             <h1>Dogs Component</h1>               
             <img src={this.state.dogList} style={{height:"850px", width: "900px", borderRadius: "200px"}} />
-            <button onClick={this.fetchDog}>Click Happy for Dog</button>
+            <button onClick={this.fetchDog}>Click Me</button>
 
             </div>)
       
